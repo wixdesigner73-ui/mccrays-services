@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 560" role="img" aria-label="Friendly McCray's Services technician holding a hammer and a drill">
+<defs>
+<linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f6c9a6"/><stop offset="1" stop-color="#e0a27a"/></linearGradient>
+<linearGradient id="tee" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#dfe7f3"/></linearGradient>
+<linearGradient id="ov" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b6678"/><stop offset="1" stop-color="#2f3744"/></linearGradient>
+<linearGradient id="belt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb02e"/><stop offset="1" stop-color="#e07b00"/></linearGradient>
+<linearGradient id="hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6b4226"/><stop offset="1" stop-color="#3d2314"/></linearGradient>
+<radialGradient id="gloss" cx=".3" cy=".25" r=".8"><stop offset="0" stop-color="#fff" stop-opacity=".45"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#0b2a6b" flood-opacity=".25"/></filter>
+</defs>
+<g filter="url(#sh)">
+<!-- legs -->
+<path d="M110 400h180l14 160H206l-6-90-6 90H96z" fill="url(#ov)"/>
+<!-- torso tee -->
+<path d="M105 215q95-40 190 0l14 200H91z" fill="url(#tee)"/>
+<!-- raised arm (left) sleeve + forearm -->
+<path d="M112 222q-36 10-44 -40l-10-70q-2-18 18-20t24 18l12 66q6 30-0 46z" fill="url(#skin)"/>
+<path d="M118 215q-30-10-52 12l-6 24 52 10z" fill="url(#tee)"/>
+<!-- overalls bib + straps -->
+<path d="M146 400V270q0-14 14-14h80q14 0 14 14v130z" fill="url(#ov)"/>
+<path d="M138 222l22 40h-22zM262 222l-22 40h22z" fill="#444d5c"/>
+<rect x="136" y="215" width="26" height="60" rx="8" fill="#4a5466"/>
+<rect x="238" y="215" width="26" height="60" rx="8" fill="#4a5466"/>
+<circle cx="149" cy="270" r="6" fill="#ffb02e"/><circle cx="251" cy="270" r="6" fill="#ffb02e"/>
+<rect x="170" y="318" width="60" height="42" rx="6" fill="#3a4352" stroke="#6f7b90" stroke-width="2"/>
+<!-- tool belt -->
+<path d="M96 398h208l6 44H90z" fill="url(#belt)"/>
+<rect x="110" y="410" width="40" height="56" rx="8" fill="#f09a1a"/>
+<rect x="250" y="410" width="40" height="56" rx="8" fill="#f09a1a"/>
+<rect x="118" y="388" width="8" height="40" rx="3" fill="#d8dee8"/><rect x="132" y="392" width="8" height="36" rx="3" fill="#2f6bff"/>
+<rect x="262" y="394" width="8" height="34" rx="3" fill="#e5484d"/>
+<!-- right arm with drill -->
+<path d="M296 220q40 14 36 70l-8 40-40-8 8-44z" fill="url(#tee)"/>
+<path d="M318 318l-8 26q4 14 22 8l10-28z" fill="url(#skin)"/>
+<!-- drill -->
+<g transform="translate(300 292) rotate(-20)">
+<rect x="0" y="0" width="82" height="34" rx="12" fill="#1f2937"/>
+<rect x="6" y="6" width="50" height="22" rx="8" fill="#2f6bff"/>
+<rect x="82" y="8" width="26" height="18" rx="4" fill="#9aa5b8"/>
+<rect x="108" y="13" width="26" height="8" rx="3" fill="#cfd6e2"/>
+<rect x="26" y="28" width="26" height="54" rx="9" fill="#1f2937" transform="rotate(8 39 28)"/>
+</g>
+<!-- neck + head -->
+<rect x="178" y="150" width="44" height="48" rx="16" fill="#d9966e"/>
+<ellipse cx="200" cy="112" rx="56" ry="62" fill="url(#skin)"/>
+<ellipse cx="146" cy="118" rx="9" ry="14" fill="#e0a27a"/><ellipse cx="254" cy="118" rx="9" ry="14" fill="#e0a27a"/>
+<!-- hair -->
+<path d="M142 104q-6-62 58-64t58 64q-14-34-58-34t-58 34z" fill="url(#hair)"/>
+<!-- beard -->
+<path d="M148 128q4 62 52 66t52-66q-8 26-24 32-28 12-56 0-18-8-24-32z" fill="url(#hair)"/>
+<!-- face -->
+<path d="M172 150q28 26 56 0 0 22-28 28t-28-28z" fill="#fff"/>
+<path d="M180 148q20 12 40 0" stroke="#7a4a2a" stroke-width="3" fill="none" stroke-linecap="round"/>
+<ellipse cx="178" cy="112" rx="6" ry="8" fill="#2a1a10"/><ellipse cx="222" cy="112" rx="6" ry="8" fill="#2a1a10"/>
+<path d="M164 94q14-10 28-2M208 92q14-8 28 2" stroke="#3d2314" stroke-width="5" stroke-linecap="round" fill="none"/>
+<path d="M200 118l-6 18h12z" fill="#d38e66"/>
+<!-- hammer in raised hand -->
+<g transform="translate(56 8) rotate(-18 40 80)">
+<rect x="34" y="40" width="12" height="130" rx="5" fill="#b7793a"/>
+<rect x="6" y="14" width="70" height="30" rx="8" fill="#8d96a8"/>
+<rect x="6" y="14" width="70" height="12" rx="6" fill="#c3cad8"/>
+</g>
+<circle cx="76" cy="112" r="16" fill="url(#skin)"/>
+</g>
+<ellipse cx="200" cy="300" rx="120" ry="200" fill="url(#gloss)" opacity=".25"/>
+</svg>
